@@ -8,8 +8,12 @@
 <body>
 
 <div class="container">
-	<h1>Welcome to my Weather App</h1>
-</div>
+	<div ng-app="WeatherApp">
+		<div ng-view>
+
+		</div> <!-- end ng-view -->
+	</div> <!-- end ng-app -->
+</div> <!-- end .container -->
 
 <script src="/lib/jquery/dist/jquery.min.js"></script>
 <script src="/lib/bootstrap/dist/js/bootstrap.min.js"></script>
